@@ -10,7 +10,8 @@ import tensorflow as tf
 from sklearn.metrics import f1_score, classification_report
 from keras import backend as K
 
-def recall_m(y_true, y_pred): # suitable only for binary classification?
+#  adapted from https://datascience.stackexchange.com/questions/45165/how-to-get-accuracy-f1-precision-and-recall-for-a-keras-model
+def recall_m(y_true, y_pred): 
     true_positives = K.sum(K.round(K.clip(y_true * y_pred, 0, 1)))
     possible_positives = K.sum(K.round(K.clip(y_true, 0, 1)))
     recall = true_positives / (possible_positives + K.epsilon())
