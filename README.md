@@ -10,4 +10,4 @@ https://www.kaggle.com/datasets/sujaykapadnis/emotion-recognition-dataset
 
 # Packages and versions used
 
-tensorflow-gpu==2.14.0, numpy==1.26.4
+tensorflow==2.14.0, numpy==1.26.4, scikit-learn==1.2.2, pandas==2.2.1, keras==2.14.0, autokeras==1.0.20, python==3.11.8
