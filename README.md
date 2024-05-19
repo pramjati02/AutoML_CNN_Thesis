@@ -7,8 +7,7 @@ The trained versions of these models can be found through the [following link](h
 Dataset: Kovenko, Volodymyr; Shevchuk, Vitalii (2021), “OAHEGA : EMOTION RECOGNITION DATASET”, Mendeley Data, V2, doi: 10.17632/5ck5zz6f2c.2
 https://www.kaggle.com/datasets/sujaykapadnis/emotion-recognition-dataset
 
-Packages and versions used
 
-tensorflow-gpu==2.14.0 
+# Packages and versions used
 
-numpy==1.26.4
+tensorflow-gpu==2.14.0, numpy==1.26.4
