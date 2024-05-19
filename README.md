@@ -1,6 +1,6 @@
 # AutoML_CNN_Thesis
-Respository for the code used for my thesis on the comparison of Automated Machine Learning performance against Convolutional Neural Networks in facial emotional recognition.
-Autokeras was used as the AutoML algorithm, and Resnet50, InceptionV3 and VGG16 were the CNN architectures that were compared against it on a dataset.
+Respository for the code used for my thesis on Automated Machine Learning performance against Convolutional Neural Networks in facial emotional recognition.
+Autokeras was used as the AutoML algorithm, and Resnet50, InceptionV3 and VGG16 were the CNN architectures that were compared against it on a dataset (found below)
 The code and outputs of each model are listed in this repository.
 The trained versions of these models can be found through the following link: (link here)
 
