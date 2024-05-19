@@ -59,6 +59,7 @@ model.layers[0].trainable = False
 model.summary()
 
 # setting up calculations for f1 score, precision and recall during training 
+# adapted from https://datascience.stackexchange.com/questions/45165/how-to-get-accuracy-f1-precision-and-recall-for-a-keras-model
 def recall_m(y_true, y_pred):
     true_positives = tf.keras.backend.sum(tf.keras.backend.round(tf.keras.backend.clip(y_true * y_pred, 0, 1)))
     possible_positives = tf.keras.backend.sum(tf.keras.backend.round(tf.keras.backend.clip(y_true, 0, 1)))
