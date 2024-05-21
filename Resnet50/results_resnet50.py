@@ -10,6 +10,7 @@ import tensorflow as tf
 from sklearn.metrics import f1_score, classification_report
 from keras import backend as K
 
+# Importing recall, precision and f1 metrics for the model
 #  adapted from https://datascience.stackexchange.com/questions/45165/how-to-get-accuracy-f1-precision-and-recall-for-a-keras-model
 def recall_m(y_true, y_pred): 
     true_positives = K.sum(K.round(K.clip(y_true * y_pred, 0, 1)))
